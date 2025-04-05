@@ -24,8 +24,10 @@ Das Ziel des Projekts ist es, ein vortrainiertes BERT-Modell (`bert-base-uncased
 ## Verwendung
  
  Um das Modell mit neuen Daten zu testen, führen Sie das folgende Skript aus:
-    ```bash
-    python src/inference.py --text "Dein Text hier"
+ 
+   ```bash
+      python src/inference.py --text "Dein Text hier"
+   ```
 
 ## Ergebnisse
 - Trainingsdaten: 80% des IMDB-Datensatzes
